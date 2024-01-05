@@ -33,15 +33,13 @@ footer a {
 }
 
 .card {
-    width: 300px;
+    width: 350px;
     margin: auto;
-    border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card__image {
     width: 100%;
-    height: 150px;
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -55,6 +53,10 @@ footer a {
 .card__content {
     padding: 20px;
     background-color: #181a1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card__content--name {
@@ -67,6 +69,7 @@ footer a {
 .card__content--age {
     font-size: 20px;
     color: gray;
+    margin-left: 10px;
 }
 
 .card__content--city {
@@ -89,6 +92,7 @@ footer a {
 .card__stats--item--number {
     font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 
 .card__stats--item--text {
